@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #343541;
+  
+}
+.app {
+  width: 80%;
+  margin: 0 auto;
+}
+.questionsDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.question span {
+  font-size: 15px;
+  color: white;
+}
+.question {
+  margin-bottom: 50px;
+}
+.userInput input{
+  background-color: #40414E;
+  border: 0;
+  width: 768px;
+  height: 40px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+}
+.inputsDiv {
+  margin-top: 200px;
+}
+.userInput {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: white;
+}
+.userInput span {
+  margin-bottom: 5px;
+}
